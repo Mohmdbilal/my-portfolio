@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { FaBehance, FaLinkedin } from "react-icons/fa";
-
 
 export default function Banner() {
   return (
@@ -8,37 +8,38 @@ export default function Banner() {
       <div className="mt-8 sm:mt-0">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#CB7F42]">Hey,</h1>
         <h2 className="w-[350px] sm:w-auto text-5xl font-normal mt-4 text-black dark:text-white leading-tight">
-          I'm Muhammed Bilal
+          I&apos;m Muhammed Bilal
         </h2>
 
         <div className="flex flex-col items-center">
           {/* Mobile Image */}
           <div className="block sm:hidden mt-10 w-[160px] h-[170px] rounded-[20px] overflow-hidden shadow-lg">
-            <img
+            <Image
               src="/images/banner/profilephoto.jpg"
               alt="Profile Photo"
+              width={160}
+              height={170}
               className="w-full h-full object-cover rounded-[30px]"
             />
           </div>
 
           {/* Rectangle */}
-<div
-  className="mt-10 w-full max-w-[400px] sm:max-w-[900px] md:max-w-[800px] lg:max-w-[800px] h-[210px] sm:h-[200px] lg:h-[230px] 
+          <div
+            className="mt-10 w-full max-w-[400px] sm:max-w-[900px] md:max-w-[800px] lg:max-w-[800px] h-[210px] sm:h-[200px] lg:h-[230px] 
              bg-[#292929] dark:bg-[#353535] 
              rounded-[40px] mx-auto 
              flex flex-col items-center justify-center 
              px-4 sm:px-10 pt-0 lg:pt-0 
              relative 
              animate-custom-pulse"
-  style={{ boxShadow: "inset 8px 8px 8px -2px rgba(0, 0, 0,0.14)" }}
->
-
+            style={{ boxShadow: "inset 8px 8px 8px -2px rgba(0, 0, 0,0.14)" }}
+          >
             {/* Text & Social Icons */}
             <div className="flex flex-col gap-4 sm:gap-6 items-center sm:items-start text-center sm:text-left w-full">
               {/* Heading + Download CV */}
               <div className="w-full flex flex-col gap-4 items-center sm:items-start justify-center sm:justify-start ">
                 <h1 className="text-white text-3xl lg:text-5xl font-spline font-light w-auto">
-                  UI/UX & FRONTEND
+                  UI/UX &amp; FRONTEND
                 </h1>
 
                 <a
@@ -102,9 +103,11 @@ export default function Banner() {
 
             {/* Desktop Image */}
             <div className="hidden sm:block absolute -top-8 lg:-top-10 right-3 w-[200px]  lg:w-[230px] h-[220px] lg:h-[250px] rounded-[30px] overflow-hidden shadow-lg">
-              <img
+              <Image
                 src="/images/banner/profilephoto.jpg"
                 alt="Profile Photo"
+                width={230}
+                height={250}
                 className="w-full h-full object-cover rounded-[30px]"
               />
             </div>

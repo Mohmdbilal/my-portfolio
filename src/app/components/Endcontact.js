@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect } from "react";
 import { MdEmail, MdPhone, MdHome } from "react-icons/md";
 import { FaBehance, FaLinkedin } from "react-icons/fa";
@@ -15,14 +16,14 @@ export default function EndContactSection() {
       <div className="w-[1000px] relative bg-[#BCBCBC] dark:bg-[#292929] rounded-[30px] flex flex-col justify-center items-center px-6 py-8 pt-6 space-y-4">
 
         {/* Home Icon with Pulse */}
-        <a
+        <Link
           href="/"
           onClick={handleScrollToTop}
           title="Go Home"
           className="absolute top-[-18px] right-[-10px] bg-[#4b4b4b] text-white rounded-2xl w-[50px] h-[50px] flex items-center justify-center animate-pulse shadow-lg hover:scale-110 transition duration-300"
         >
           <MdHome size={25} />
-        </a>
+        </Link>
 
         <div className="flex flex-wrap justify-between w-full gap-3">
           {/* Contact Block 1 */}
