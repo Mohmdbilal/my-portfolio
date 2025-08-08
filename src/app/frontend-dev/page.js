@@ -5,10 +5,10 @@ import { ArrowLeft } from "lucide-react";
 // Sample project data (replace with your actual projects)
 const projects = [
   {
-    title: "Responsive Landing Page",
-    image: "/images/project1.png",
-    demoLink: "https://your-demo-link.com",
-    codeLink: "https://github.com/your-repo",
+    title: "Netflix-clone/Vite/Firebase",
+    image: "images/work/netflixhome.png",
+    demoLink: "https://netflix-clone-eight-rho-56.vercel.app/",
+    codeLink: "https://github.com/Mohmdbilal/netflix-clone",
   },
   {
     title: "React Dashboard",
