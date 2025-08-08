@@ -33,7 +33,7 @@ export default function Education() {
         {/* ==================== Education Section ==================== */}
         <SectionWrapper>
           <div className="flex-1">
-            <h1 className="text-black dark:text-[#cecece] font-bold font-spline text-[30px] sm:text-[50px] text-left mb-10">
+            <h1 className="text-black dark:text-[#cecece] font-bold font-spline text-[25px] sm:text-[50px] text-left mb-10">
               Education
             </h1>
 
@@ -44,7 +44,7 @@ export default function Education() {
               {/* Education Entries */}
               <div className="flex flex-col text-left gap-20">
                 <div>
-                  <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
+                  <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
                     Self-Learning – Frontend Web Development
                   </h2>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
@@ -53,7 +53,7 @@ export default function Education() {
                 </div>
 
                 <div>
-                  <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
+                  <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
                     UI/UX Design Course
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
@@ -65,7 +65,7 @@ export default function Education() {
                 </div>
 
                 <div>
-                  <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
+                  <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
                     BSc in Computer Science
                   </h2>
                   <p className="text-sm text-gray-700 dark:text-[#c7c7c7]  font-spline">
@@ -83,7 +83,7 @@ export default function Education() {
         {/* ==================== Internship Section ==================== */}
         <SectionWrapper>
           <div className="flex-2 pr-20">
-            <h1 className="text-black dark:text-[#cecece]  font-bold font-spline text-[30px] sm:text-[50px] text-left mb-10">
+            <h1 className="text-black dark:text-[#cecece]  font-bold font-spline text-[25px] sm:text-[50px] text-left mb-10">
               Internships
             </h1>
 
@@ -94,7 +94,7 @@ export default function Education() {
               {/* Internship Entry */}
               <div className="flex flex-col text-left gap-4">
                 <div>
-                  <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
+                  <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
                     UI/UX Design Intern
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
@@ -114,7 +114,7 @@ export default function Education() {
       {/* ==================== Certification Section ==================== */}
 <SectionWrapper>
   <div className="mt-20">
-    <h1 className="text-black dark:text-[#cecece] font-bold font-spline text-[30px] sm:text-[50px] text-left mb-10">
+    <h1 className="text-black dark:text-[#cecece] font-bold font-spline text-[25px] sm:text-[50px] text-left mb-10">
       Certifications
     </h1>
 
@@ -126,7 +126,7 @@ export default function Education() {
       <div className="flex flex-col text-left gap-20">
         {/* UI/UX Design Specialization */}
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
+          <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
             UI/UX Design Specialization
           </h2>
           <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>
@@ -148,7 +148,7 @@ export default function Education() {
 
         {/* Responsive Web Design */}
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
+          <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
             Responsive Web Design
           </h2>
           <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>
@@ -170,7 +170,7 @@ export default function Education() {
 
         {/* JavaScript Basics */}
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
+          <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
             JavaScript Basics
           </h2>
           <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>

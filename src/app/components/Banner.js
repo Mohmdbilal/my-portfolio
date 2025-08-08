@@ -4,10 +4,10 @@ import { FaBehance, FaLinkedin } from "react-icons/fa";
 
 export default function Banner() {
   return (
-    <div className="mt-[120px] px-4 sm:px-6 md:px-20 font-spline overflow-x-hidden">
+    <div className="mt-[106px] px-4 sm:px-6 md:px-20 font-spline overflow-x-hidden">
       <div className="mt-8 sm:mt-0">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#CB7F42]">Hey,</h1>
-        <h2 className="w-[350px] sm:w-auto text-5xl font-normal mt-4 text-black dark:text-white leading-tight">
+        <h2 className="w-[350px] sm:w-auto text-[2.5rem] font-normal mt-4 text-black dark:text-white leading-tight">
           I&apos;m Muhammed Bilal
         </h2>
 
@@ -30,22 +30,22 @@ export default function Banner() {
              rounded-[40px] mx-auto 
              flex flex-col items-center justify-center 
              px-4 sm:px-10 pt-0 lg:pt-0 
-             relative 
-             animate-custom-pulse"
+             relative "
+             
             style={{ boxShadow: "inset 8px 8px 8px -2px rgba(0, 0, 0,0.14)" }}
           >
             {/* Text & Social Icons */}
             <div className="flex flex-col gap-4 sm:gap-6 items-center sm:items-start text-center sm:text-left w-full">
               {/* Heading + Download CV */}
               <div className="w-full flex flex-col gap-4 items-center sm:items-start justify-center sm:justify-start ">
-                <h1 className="text-white text-3xl lg:text-5xl font-spline font-light w-auto">
+                <h1 className="text-white text-2xl lg:text-5xl font-spline font-light w-auto">
                   UI/UX &amp; FRONTEND
                 </h1>
 
                 <a
                   href="/path-to-your-cv.pdf"
                   download
-                  className="bg-[#CB7F42] dark:bg-[#a76a38] text-white text-sm  font-spline font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
+                  className="bg-[#CB7F42] dark:bg-[#a76a38] hover:bg-[#7e522f] hover:dark:bg-[#7e522f] text-white text-sm  font-spline font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
                 >
                   DOWNLOAD CV
                 </a>

@@ -57,7 +57,7 @@ export default function AboutMe() {
              mb-4 sm:mb-0 sm:mt-10"
           >
             <h1
-              className="text-white font-bold font-spline text-4xl  
+              className="text-white font-bold font-spline text-3xl  
                w-full text-center sm:w-[350px]"
             >
               <span className="block sm:hidden">ABOUT ME</span>
@@ -75,7 +75,7 @@ export default function AboutMe() {
              flex items-center justify-center
              pl-2 py-6 sm:py-8 md:py-12"
           >
-            <div className="w-full max-w-[1080px] text-center px-6">
+            <div className="w-full max-w-[1080px]  text-center px-3">
               <p className="text-black dark:text-white text-justify font-spline text-sm leading-normal sm:text-base sm:leading-relaxed md:text-[16px]">
                 As a frontend developer with a background in BSc Computer
                 Science and UI/UX design, I build responsive user interfaces

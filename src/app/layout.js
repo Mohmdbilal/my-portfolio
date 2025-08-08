@@ -26,12 +26,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${splineSansMono.variable}`} suppressHydrationWarning>
       <body className="overflow-x-hidden">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light">
           <div
             ref={scrollRef}
             className="
               relative
-              bg-[#e3e3e3] dark:bg-[#1a1a1a]
+              bg-[#f4f4f4] dark:bg-[#1a1a1a]
               text-black dark:text-white
               rounded-none lg:rounded-[30px]
               w-full 
@@ -50,8 +50,8 @@ export default function RootLayout({ children }) {
                 absolute top-4 sm:top-0 left-1/2 -translate-x-1/2 
                 text-[160px] sm:text-[200px] md:text-[180px] lg:text-[200px] 
                 font-bold 
-                text-white dark:text-[#272727] 
-                opacity-40 
+                text-[#ffffff] dark:text-[#272727] 
+                opacity-100 
                 pointer-events-none select-none 
                 z-0 
                 leading-none 
