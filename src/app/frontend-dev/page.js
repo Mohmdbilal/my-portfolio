@@ -11,10 +11,10 @@ const projects = [
     codeLink: "https://github.com/Mohmdbilal/netflix-clone",
   },
   {
-    title: "React Dashboard",
-    image: "/images/project2.png",
-    demoLink: "https://your-demo-link.com",
-    codeLink: "https://github.com/your-repo",
+    title: "Ecommerce-product-page",
+    image: "images/work/product.png",
+    demoLink: "ecommerce-product-page-e9wth27oi.vercel.app",
+    codeLink: "https://github.com/Mohmdbilal/Ecommerce-product-page",
   },
   // Add more projects as needed
 ];
