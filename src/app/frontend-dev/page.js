@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Ecommerce-product-page",
     image: "images/work/product.png",
-    demoLink: "ecommerce-product-page-e9wth27oi.vercel.app",
+    demoLink: "https://ecommerce-product-page-ashen.vercel.app/",
     codeLink: "https://github.com/Mohmdbilal/Ecommerce-product-page",
   },
   // Add more projects as needed
