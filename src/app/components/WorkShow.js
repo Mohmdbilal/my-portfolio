@@ -43,9 +43,9 @@ export default function WorkShowBackground() {
       {/* === UI Design Card === */}
       <div
         onClick={handleUIDesignClick}
-        className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#BCBCBC] dark:bg-[#505050] text-black dark:text-[#dfdfdf] p-6 flex flex-col justify-center items-start group"
+        className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#BCBCBC] hover:bg-[#8b8b8b] hover:dark:bg-[#676767] dark:bg-[#505050] text-black dark:text-[#dfdfdf] p-6 flex flex-col justify-center items-start group"
       >
-        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover:underline">
+        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover ">
           Creative UI Design
         </h3>
         <p className="text-sm text-left font-spline max-w-[500px]">
@@ -57,9 +57,9 @@ export default function WorkShowBackground() {
       {/* === Frontend Card === */}
       <div
         onClick={handleFrontendClick}
-        className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#D9D9D9] dark:bg-[#3f3f3f] text-black dark:text-[#dfdfdf] p-6 flex flex-col justify-center items-start group"
+        className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#D9D9D9] hover:bg-[#8c8c8c] hover:dark:bg-[#606060] dark:bg-[#3f3f3f] text-black dark:text-[#dfdfdf]  p-6 flex flex-col justify-center items-start group"
       >
-        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover:underline">
+        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover">
           Responsive Development
         </h3>
         <p className="text-sm text-left font-spline max-w-[500px]">

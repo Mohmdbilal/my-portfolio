@@ -9,22 +9,19 @@ export default function CreativeDesignPage() {
     {
       title: "My-Portfolio",
       image: "images/work/designportfolio.png",
-
       figmaLink:
         "https://www.figma.com/design/rqZL8J9IPPYZgW97VlB4Fe/my-portfolio?node-id=0-1&t=11YgRkq6CvVcWoBa-1",
     },
     {
       title: "Medicare Hospital",
       image: "images/work/medicare.png",
-
       figmaLink:
         "https://www.figma.com/design/ICzXpRbAKM4SvDlPGnXzec/medicare?node-id=0-1&t=MKrZDlD6xgvnYRMc-1",
     },
     {
-      title: "Creative Project 3",
-      image: "/images/project3.jpg",
-      portfolioLink: "https://yourportfolio.com/project3",
-      figmaLink: "https://figma.com/project3",
+      title: "Ecommerce-product-page",
+      image: "/images/work/product.png",
+      figmaLink: "https://www.figma.com/design/P8dENSmXxfKiKy8P7S0sTC/product-page?node-id=0-1&t=rKaLOB52fDHXpT4g-1",
     },
     {
       title: "Creative Project 4",
@@ -46,7 +43,7 @@ export default function CreativeDesignPage() {
       </button>
 
       {/* Page Description */}
-      <p className="max-w-[400px] text-sm leading-relaxed font-spline my-16">
+      <p className="max-w-[400px] text-sm leading-relaxed font-spline my-16 pl-10">
         This page showcases a series of projects that began as Figma designs and
         were later developed into fully functional frontend interfaces. Each
         project reflects my creative design thinking and ability to translate

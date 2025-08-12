@@ -34,7 +34,7 @@ export default function ResponsiveDesignPage() {
       </button>
 
       {/* Page Description */}
-      <p className="max-w-[400px] text-sm leading-relaxed font-spline my-16">
+      <p className="max-w-[400px] text-sm leading-relaxed font-spline my-16 pl-10">
         This page showcases my frontend development skills where I bring designs
         to life using React, Next.js, and modern web technologies. Each project
         is built with a focus on responsiveness, clean code, and smooth user
