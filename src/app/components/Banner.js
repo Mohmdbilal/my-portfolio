@@ -38,14 +38,14 @@ export default function Banner() {
             <div className="flex flex-col gap-4 sm:gap-6 items-center sm:items-start text-center sm:text-left w-full">
               {/* Heading + Download CV */}
               <div className="w-full flex flex-col gap-4 items-center sm:items-start justify-center sm:justify-start ">
-                <h1 className="text-white text-2xl lg:text-5xl font-spline font-light w-auto">
+                <h1 className="text-white text-2xl lg:text-5xl  font-light w-auto">
                   UI/UX &amp; FRONTEND
                 </h1>
 
                 <a
                   href="/path-to-your-cv.pdf"
                   download
-                  className="bg-[#CB7F42] dark:bg-[#a76a38] hover:bg-[#7e522f] hover:dark:bg-[#7e522f] text-white text-sm  font-spline font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
+                  className="bg-[#CB7F42] dark:bg-[#a76a38] hover:bg-[#7e522f] hover:dark:bg-[#7e522f] text-white text-sm  font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
                 >
                   DOWNLOAD CV
                 </a>

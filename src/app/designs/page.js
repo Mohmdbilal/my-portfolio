@@ -24,10 +24,9 @@ export default function CreativeDesignPage() {
       figmaLink: "https://www.figma.com/design/P8dENSmXxfKiKy8P7S0sTC/product-page?node-id=0-1&t=rKaLOB52fDHXpT4g-1",
     },
     {
-      title: "Creative Project 4",
-      image: "/images/project4.jpg",
-      portfolioLink: "https://yourportfolio.com/project4",
-      figmaLink: "https://figma.com/project4",
+      title: "Authentication-App",
+      image: "/images/work/authentication.png",
+      figmaLink: "https://www.figma.com/design/zxsOVmm5oeNZqnCsBX0EAe/Authentication-App?node-id=0-1&t=gDmv1gW52GHjdo3L-1",
     },
   ];
 

@@ -16,6 +16,12 @@ const projects = [
     demoLink: "https://ecommerce-product-page-ashen.vercel.app/",
     codeLink: "https://github.com/Mohmdbilal/Ecommerce-product-page",
   },
+  {
+    title: "Authentication-App/Firebase",
+    image: "images/work/authentication.png",
+    demoLink: "https://authentication-app-kappa-taupe.vercel.app/",
+    codeLink: "https://github.com/Mohmdbilal/authentication-app",
+  },
   // Add more projects as needed
 ];
 
