@@ -22,6 +22,12 @@ const projects = [
     demoLink: "https://authentication-app-kappa-taupe.vercel.app/",
     codeLink: "https://github.com/Mohmdbilal/authentication-app",
   },
+    {
+    title: "My-portfolio",
+    image: "images/work/designportfolio.png",
+    demoLink: "https://my-portfolio-five-ochre-10.vercel.app/",
+    codeLink: "https://github.com/Mohmdbilal/my-portfolio",
+  },
   // Add more projects as needed
 ];
 

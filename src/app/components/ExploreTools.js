@@ -9,13 +9,14 @@ const toolImages = [
   "/images/icons/html.png",
   "/images/icons/css.png",
   "/images/icons/javascript.png",
-  "/images/icons/redux.png",
+  "/images/icons/figma.png", 
   "/images/icons/tailwind.png",
+  "/images/icons/reduxtoolkit.png",
    "/images/icons/firebase.png",
   "/images/icons/framer.png",
-  "/images/icons/figma.png",
   "/images/icons/git.png",
   "/images/icons/github.png",
+  
 ];
 
 
@@ -25,11 +26,11 @@ const darkToolImages = [
   "/images/icons/htmldark.png",
   "/images/icons/cssdark.png",
   "/images/icons/javascriptdark.png",
-  "/images/icons/reduxdark.png",
+  "/images/icons/figmadark.png",
   "/images/icons/tailwinddark.png",
+  "/images/icons/reduxtoolkitdark.png",
   "/images/icons/firebasedark.png",
   "/images/icons/framerdark.png",
-  "/images/icons/figmadark.png",
   "/images/icons/gitdark.png",
   "/images/icons/githubdark.png",
 ];

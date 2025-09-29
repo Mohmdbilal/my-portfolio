@@ -45,10 +45,10 @@ export default function Education() {
               <div className="flex flex-col text-left gap-20">
                 <div>
                   <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
-                    Self-Learning – Frontend Web Development
+                    Frontend Web Development (Self Learning)
                   </h2>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
-                    March 2025 – Aug 2025 (Ongoing)
+                    Apr 2025 - Sept 2025 (Ongoing)
                   </p>
                 </div>
 
@@ -95,13 +95,14 @@ export default function Education() {
               <div className="flex flex-col text-left gap-4">
                 <div>
                   <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
-                    UI/UX Design Intern
+                    UI/UX Design Intern &<br/>
+                    Freelance Graphic Designer
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
                     Zoople Technologies, Kochi
                   </p>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7]  mt-1">
-                    Jan 2025 – Feb 2025
+                    Jan 2025 – Present
                   </p>
                 </div>
               </div>
@@ -124,20 +125,41 @@ export default function Education() {
 
       {/* Certification Entries */}
       <div className="flex flex-col text-left gap-20">
+
+         <div>
+          <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
+            JavaScript Basics
+          </h2>
+          <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">GreatStack</p>
+          <p className="text-sm font-spline sm:text-base text-gray-700 dark:text-[#c7c7c7] mt-1">
+            Completed Sept 2025
+          </p>
+          <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
+            <span className="font-semibold">Credential ID:</span> 12343348-180287
+          </p>
+          <a
+            href="https://learnyst-user-assets.s3.ap-south-1.amazonaws.com/certificates/schools/164876/certificates/180287/users/12343348/pdf/12343348_180287.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 px-4 py-1 rounded-md bg-[#676767] hover:bg-[#6a6a6a] text-white text-sm font-spline transition"
+          >
+            Show Certificate
+          </a>
+        </div>
         {/* UI/UX Design Specialization */}
         <div>
           <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
-            UI/UX Design Specialization
+            Build Wireframes and Low-Fidelity Prototypes
           </h2>
           <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>
           <p className="text-sm font-spline sm:text-base text-gray-700 dark:text-[#c7c7c7] mt-1">
-            Completed May 2025
+            Completed Oct 2024
           </p>
           <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
-            <span className="font-semibold">Credential ID:</span> UXD-2025-01
+            <span className="font-semibold">Credential ID:</span> 5KS0A97GTYD9
           </p>
           <a
-            href="https://example.com/uiux-certificate"
+            href="https://www.coursera.org/account/accomplishments/certificate/5KS0A97GTYD9"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-2 px-4 py-1 rounded-md bg-[#676767] hover:bg-[#6a6a6a] text-white text-sm font-spline transition"
@@ -149,17 +171,17 @@ export default function Education() {
         {/* Responsive Web Design */}
         <div>
           <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
-            Responsive Web Design
+            Principles of UX/UI Design
           </h2>
           <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>
           <p className="text-sm font-spline sm:text-base text-gray-700 dark:text-[#c7c7c7] mt-1">
-            Completed April 2025
+            Completed Aug 2024
           </p>
           <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
-            <span className="font-semibold">Credential ID:</span> RWD-2025-04
+            <span className="font-semibold">Credential ID:</span> 0A531GK0GQC8
           </p>
           <a
-            href="https://example.com/responsive-design-certificate"
+            href="https://www.coursera.org/account/accomplishments/certificate/0A531GK0GQC8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-2 px-4 py-1 rounded-md bg-[#676767] hover:bg-[#6a6a6a] text-white text-sm font-spline transition"
@@ -169,26 +191,7 @@ export default function Education() {
         </div>
 
         {/* JavaScript Basics */}
-        <div>
-          <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7]">
-            JavaScript Basics
-          </h2>
-          <p className="text-sm text-gray-700 dark:text-[#c7c7c7]">Coursera</p>
-          <p className="text-sm font-spline sm:text-base text-gray-700 dark:text-[#c7c7c7] mt-1">
-            Completed March 2025
-          </p>
-          <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
-            <span className="font-semibold">Credential ID:</span> JS-2025-03
-          </p>
-          <a
-            href="https://example.com/javascript-certificate"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-2 px-4 py-1 rounded-md bg-[#676767] hover:bg-[#6a6a6a] text-white text-sm font-spline transition"
-          >
-            Show Certificate
-          </a>
-        </div>
+       
       </div>
     </div>
   </div>

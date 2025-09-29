@@ -77,7 +77,7 @@ export default function Banner() {
                   </li>
                   <li>
                     <a
-                      href="https://www.behance.net/"
+                      href="https://www.behance.net/muhammedbilalb"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-[#CB7F42]"
@@ -88,7 +88,7 @@ export default function Banner() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/muhammedbilalb/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-[#CB7F42]"

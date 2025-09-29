@@ -52,7 +52,7 @@ export default function EndContactSection() {
 
           {/* Contact Block 3 */}
           <a
-            href="https://www.behance.net/"
+            href="https://www.behance.net/muhammedbilalb"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-[48%] md:w-[150px] flex items-center gap-3 text-black dark:text-white hover:text-[#CB7F42] dark:hover:text-[#CB7F42] transition-colors duration-300 bg-[#D9D9D9] dark:bg-[#3a3a3a] rounded-xl px-4 py-3"
@@ -64,7 +64,7 @@ export default function EndContactSection() {
 
           {/* Contact Block 4 */}
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/muhammedbilalb/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-[48%] md:w-[150px] flex items-center gap-3 text-black dark:text-white hover:text-[#CB7F42] dark:hover:text-[#CB7F42] transition-colors duration-300 bg-[#D9D9D9] dark:bg-[#3a3a3a] rounded-xl px-4 py-3"

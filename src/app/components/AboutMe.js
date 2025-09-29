@@ -76,29 +76,29 @@ export default function AboutMe() {
              pl-2 py-6 sm:py-8 md:py-12"
           >
             <div className="w-full max-w-[1080px]  text-center px-3">
-              <p className="text-black dark:text-white text-justify  text-sm leading-normal sm:text-base sm:leading-relaxed md:text-[16px]">
-                As a frontend developer with a background in BSc Computer
-                Science and UI/UX design, I build responsive user interfaces
-                that blend design precision with clean, efficient code. My core
-                skills include HTML, CSS, and JavaScript, with deep experience
-                in React.js and Next.js—working with components, props, hooks,
-                context, routing, and API handling using Axios. I&apos;m
-                familiar with advanced Next.js features like file-based routing
-                and data fetching (SSR, SSG, ISR) for scalable, optimized apps.
-                I use Tailwind CSS for utility-first styling and Framer Motion
-                for smooth UI animations. Figma helps me bridge the
-                design-to-code workflow effectively. I write reusable,
-                maintainable components and handle real-world challenges like
-                API integration, state management, and data-driven UI
-                development. I also work with MongoDB and Mongoose to manage
-                backend data in full-stack applications using Next.js API
-                routes, handling full CRUD operations, schema modeling, and
-                secure database connectivity with MongoDB Atlas. I use Git and
-                GitHub for version control and collaboration. I&apos;m
-                passionate about modern frontend tools and full-stack
-                development best practices, and I&apos;m currently seeking
+              <p className="text-black dark:text-white text-justify text-sm leading-normal sm:text-base sm:leading-relaxed md:text-[16px]">
+                As a frontend developer and UI/UX designer with a background in
+                BSc Computer Science, I create responsive, user-friendly
+                interfaces that combine design precision with clean, efficient
+                code. My core skills include HTML, CSS, and JavaScript, with
+                strong experience in React.js and Next.js—working with
+                components, props, hooks, context, routing, and API handling
+                using Axios. I'm familiar with advanced Next.js features like
+                file-based routing and data fetching (SSR, SSG, ISR) for
+                scalable, optimized apps. I use Tailwind CSS for utility-first
+                styling and Framer Motion for smooth, interactive UI animations.
+                On the UI/UX side, I specialize in prototyping and wireframing
+                to craft intuitive design flows, using Figma to bridge the
+                design-to-code workflow effectively. For state management and
+                scalability, I use Redux Toolkit, and I integrate Firebase for
+                authentication, real-time data, and backend services. I write
+                reusable, maintainable components and handle real-world
+                challenges like API integration, state handling, and building
+                data-driven UIs. I use Git and GitHub for version control and
+                collaboration. I'm passionate about modern frontend tools,
+                design systems, and best practices, and I'm currently seeking
                 opportunities to contribute to real-world projects and impactful
-                digital experiences
+                digital experiences.
               </p>
             </div>
           </div>

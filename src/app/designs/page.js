@@ -28,6 +28,21 @@ export default function CreativeDesignPage() {
       image: "/images/work/authentication.png",
       figmaLink: "https://www.figma.com/design/zxsOVmm5oeNZqnCsBX0EAe/Authentication-App?node-id=0-1&t=gDmv1gW52GHjdo3L-1",
     },
+    {
+      title: "Blinkit Case Study",
+      image: "/images/work/blinkit.png",
+      figmaLink: "https://www.figma.com/design/tur4pA2mYPCn5x1uu4iHsb/Blinkit-case-study?node-id=0-1&t=TTruueNlmYadIFog-1",
+    },
+        {
+      title: "Meal Planning App",
+      image: "/images/work/mealo.png",
+      figmaLink: "https://www.figma.com/design/J4RQpxliVdtcWab3uDK2kI/mealo-app-16-pro?node-id=0-1&t=G8BeqEHwd5YbxbkV-1",
+    },
+            {
+      title: "Travel Wellness Website",
+      image: "/images/work/wanderwell.png",
+      figmaLink: "https://www.figma.com/design/NIkxvPgatnxbU6DUkLGsRR/website?node-id=0-1&t=IJcFWB3PmkiQSsUr-1",
+    },
   ];
 
   return (
