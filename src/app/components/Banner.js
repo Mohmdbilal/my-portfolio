@@ -43,8 +43,8 @@ export default function Banner() {
                 </h1>
 
                 <a
-                  href="/path-to-your-cv.pdf"
-                  download
+                  href="/pdf/my-cv.pdf"
+                  download="Mohmd-Bilal-CV.pdf"
                   className="bg-[#CB7F42] dark:bg-[#a76a38] hover:bg-[#7e522f] hover:dark:bg-[#7e522f] text-white text-sm  font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
                 >
                   DOWNLOAD CV

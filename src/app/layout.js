@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             ref={scrollRef}
             className="
               relative
-              bg-[#f4f4f4] dark:bg-[#1a1a1a]
+              bg-[#ecebeb] dark:bg-[#1a1a1a]
               text-black dark:text-white
               rounded-none lg:rounded-[30px]
               w-full 
