@@ -13,7 +13,7 @@ const toolImages = [
   "/images/icons/tailwind.png",
   "/images/icons/reduxtoolkit.png",
    "/images/icons/firebase.png",
-  "/images/icons/framer.png",
+  "/images/icons/vercel.png",
   "/images/icons/git.png",
   "/images/icons/github.png",
   
@@ -30,7 +30,7 @@ const darkToolImages = [
   "/images/icons/tailwinddark.png",
   "/images/icons/reduxtoolkitdark.png",
   "/images/icons/firebasedark.png",
-  "/images/icons/framerdark.png",
+  "/images/icons/verceldark.png",
   "/images/icons/gitdark.png",
   "/images/icons/githubdark.png",
 ];
