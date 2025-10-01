@@ -2,31 +2,28 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-
 const toolImages = [
+  "/images/icons/figma.png",
   "/images/icons/react.png",
   "/images/icons/nextjs.png",
   "/images/icons/html.png",
   "/images/icons/css.png",
   "/images/icons/javascript.png",
-  "/images/icons/figma.png", 
   "/images/icons/tailwind.png",
   "/images/icons/bootstrap.png",
-   "/images/icons/firebase.png",
+  "/images/icons/firebase.png",
   "/images/icons/vercel.png",
   "/images/icons/git.png",
   "/images/icons/github.png",
-  
 ];
 
-
 const darkToolImages = [
+  "/images/icons/figmadark.png",
   "/images/icons/reactdark.png",
   "/images/icons/nextjsdark.png",
   "/images/icons/htmldark.png",
   "/images/icons/cssdark.png",
   "/images/icons/javascriptdark.png",
-  "/images/icons/figmadark.png",
   "/images/icons/tailwinddark.png",
   "/images/icons/bootstrapdark.png",
   "/images/icons/firebasedark.png",
@@ -40,21 +37,21 @@ export default function ExploreTools() {
   const isInView = useInView(ref, { once: false, amount: 0.3 });
 
   return (
-    <section
-      ref={ref}
-      className="w-full px-4 sm:px-10 md:px-20 py-10 sm:py-20"
-    >
+    <section ref={ref} className="w-full px-4 sm:px-10 md:px-20 py-10 sm:py-20">
       {/* Title */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
-        animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
+        animate={
+          isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }
+        }
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="mb-6"
       >
         <h2 className="text-[15px] sm:text-[16px] w-[260px] font-regular text-left font-spline  text-black dark:text-white pb-4 sm:pb-4">
- Here are the core technologies and tools I work with to build fast, modern, and user-friendly web applications — from frontend frameworks to design and collaboration platforms.
-</h2>
-
+          Here are the core technologies and tools I work with to build fast,
+          modern, and user-friendly web applications — from frontend frameworks
+          to design and collaboration platforms.
+        </h2>
       </motion.div>
 
       {/* Grid for large screens */}
