@@ -83,9 +83,7 @@ export default function AboutMe() {
                 code. My core skills include HTML, CSS, and JavaScript, with
                 strong experience in React.js and Next.js—working with
                 components, props, hooks, context, routing, and API handling
-                using Axios. I&apos;m familiar with advanced Next.js features
-                like file-based routing and data fetching (SSR, SSG, ISR) for
-                scalable, optimized apps. I use Tailwind CSS for utility-first
+                using Axios. I use Tailwind CSS for utility-first
                 styling and Framer Motion for smooth, interactive UI animations.
                 On the UI/UX side, I specialize in prototyping and wireframing
                 to craft intuitive design flows, using Figma to bridge the
