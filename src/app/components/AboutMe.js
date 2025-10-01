@@ -83,20 +83,21 @@ export default function AboutMe() {
                 code. My core skills include HTML, CSS, and JavaScript, with
                 strong experience in React.js and Next.js—working with
                 components, props, hooks, context, routing, and API handling
-                using Axios. I use Tailwind CSS for utility-first
-                styling and Framer Motion for smooth, interactive UI animations.
-                On the UI/UX side, I specialize in prototyping and wireframing
-                to craft intuitive design flows, using Figma to bridge the
-                design-to-code workflow effectively. For state management and
-                scalability, I use Redux Toolkit, and I integrate Firebase for
-                authentication, real-time data, and backend services. I write
-                reusable, maintainable components and handle real-world
-                challenges like API integration, state handling, and building
-                data-driven UIs. I use Git and GitHub for version control and
-                collaboration. I&apos;m passionate about modern frontend tools,
-                design systems, and best practices, and I&apos;m currently
-                seeking opportunities to contribute to real-world projects and
-                impactful digital experiences.
+                using Axios. I work with modern styling frameworks such as
+                Tailwind CSS, Bootstrap, and Material-UI to build consistent and
+                scalable design systems, and I use Framer Motion for smooth,
+                interactive UI animations. On the UI/UX side, I specialize in
+                prototyping and wireframing to craft intuitive design flows,
+                using Figma to bridge the design-to-code workflow effectively.
+                For state management and scalability, I use Redux Toolkit, and I
+                integrate Firebase for authentication, real-time data, and
+                backend services. I write reusable, maintainable components and
+                handle real-world challenges like API integration, state
+                handling, and building data-driven UIs. I use Git and GitHub for
+                version control and collaboration. I&apos;m passionate about
+                modern frontend tools, design systems, and best practices, and
+                I&apos;m currently seeking opportunities to contribute to
+                real-world projects and impactful digital experiences.
               </p>
             </div>
           </div>
