@@ -1,15 +1,39 @@
+"use client";
 import Image from "next/image";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { FaBehance, FaLinkedin } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Banner() {
   return (
     <div className="mt-[106px] px-4 sm:px-6 md:px-20 font-spline overflow-x-hidden">
       <div className="mt-8 sm:mt-0">
-        <h1 className="text-2xl lg:text-3xl font-bold text-[#CB7F42]">Hey,</h1>
-        <h2 className="w-[350px] sm:w-auto text-[2.5rem] font-normal mt-4 text-black dark:text-white leading-tight">
-          I&apos;m Muhammed Bilal
-        </h2>
+        <TypeAnimation
+          sequence={[
+            "",        
+            500,       
+            "Hey,",   
+          ]}
+          wrapper="h1"
+          cursor={false}
+          speed={50}
+          repeat={0}
+          className="text-2xl lg:text-3xl font-bold text-[#CB7F42]"
+        />
+
+        
+        <TypeAnimation
+          sequence={[
+            "",                
+            1800,              
+            "I'm Muhammed Bilal", 
+          ]}
+          wrapper="h2"
+          cursor={false}
+          speed={60}
+          repeat={0}
+          className="w-[350px] sm:w-auto text-[2.5rem] font-normal mt-4 text-black dark:text-white leading-tight"
+        />
 
         <div className="flex flex-col items-center">
           {/* Mobile Image */}
