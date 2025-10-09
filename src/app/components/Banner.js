@@ -3,6 +3,7 @@ import Image from "next/image";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { FaBehance, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 export default function Banner() {
   return (
@@ -66,13 +67,30 @@ export default function Banner() {
                   UI/UX &amp; FRONTEND
                 </h1>
 
-                <a
-                  href="/pdf/CV-BILAL.pdf"
-                  download="Mohmd-Bilal-CV.pdf"
-                  className="bg-[#CB7F42] dark:bg-[#a76a38] hover:bg-[#7e522f] hover:dark:bg-[#7e522f] text-white text-sm  font-light px-4  rounded-xl w-[130px] h-[40px] flex items-center justify-center"
-                >
-                  DOWNLOAD CV
-                </a>
+   <motion.a
+      href="/pdf/CV-BILAL.pdf"
+      download="Mohmd-Bilal-CV.pdf"
+      className="relative inline-flex items-center justify-center w-[130px] h-[40px] px-4 text-sm font-light text-white 
+                 bg-[#CB7F42] dark:bg-[#a76a38] rounded-xl overflow-hidden"
+    >
+      {/* Running stroke / outline */}
+      <motion.span
+        className="absolute inset-0 rounded-xl border-2 border-transparent"
+        initial={{ rotate: 0 }}
+        animate={{ rotate: 360 }}
+        transition={{
+          duration: 4.5,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+        style={{
+          borderImage: "linear-gradient(90deg, #CB7F42, #a76a38, #CB7F42) 1",
+          borderStyle: "solid",
+          borderWidth: "2px",
+        }}
+      />
+      <span className="relative z-10">DOWNLOAD CV</span>
+    </motion.a>
               </div>
 
               {/* Social Links Rectangle */}
