@@ -12,7 +12,7 @@ export default function GraphicDesignPage() {
     "images/posters/poster-1.png",
     "images/posters/poster-2.png",
     "images/posters/poster-3.png",
-    "images/posters/poster-5.png",
+    "images/posters/poster-4.png",
   ];
 
   return (
