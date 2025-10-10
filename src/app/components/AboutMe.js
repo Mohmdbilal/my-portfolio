@@ -77,27 +77,28 @@ export default function AboutMe() {
           >
             <div className="w-full max-w-[1080px]  text-center px-3">
               <p className="text-black dark:text-white text-justify text-sm leading-normal sm:text-base sm:leading-relaxed md:text-[16px]">
-                As a frontend developer and UI/UX designer with a background in
-                BSc Computer Science, I create responsive, user-friendly
-                interfaces that combine design precision with clean, efficient
-                code. My core skills include HTML, CSS, and JavaScript, with
-                strong experience in React.js and Next.js—working with
-                components, props, hooks, context, routing, and API handling
-                using Axios. I work with modern styling frameworks such as
-                Tailwind CSS, Bootstrap, and Material-UI to build consistent and
-                scalable design systems, and I use Framer Motion for smooth,
-                interactive UI animations. On the UI/UX side, I specialize in
-                prototyping and wireframing to craft intuitive design flows,
-                using Figma to bridge the design-to-code workflow effectively.
-                For state management and scalability, I use Redux Toolkit, and I
-                integrate Firebase for authentication, real-time data, and
-                backend services. I write reusable, maintainable components and
-                handle real-world challenges like API integration, state
-                handling, and building data-driven UIs. I use Git and GitHub for
-                version control and collaboration. I&apos;m passionate about
-                modern frontend tools, design systems, and best practices, and
-                I&apos;m currently seeking opportunities to contribute to
-                real-world projects and impactful digital experiences.
+                As a UI/UX and Graphic Designer with frontend development skills
+                and a BSc in Computer Science, I create responsive,
+                user-centered interfaces that combine creativity with clean,
+                efficient code. My core skills include HTML, CSS, and
+                JavaScript, with strong experience in React.js and Next.js—
+                working with components, props, hooks, context, routing, and API
+                handling using Axios. I build consistent, scalable design
+                systems using Tailwind CSS, Bootstrap, and Material UI, and use
+                Framer Motion for smooth, interactive animations. On the design
+                side, I specialize in wireframing, prototyping, and mockups
+                using Figma and Adobe XD, while leveraging Photoshop and
+                Illustrator for branding and visual design. For state management
+                and scalability, I use Redux Toolkit and integrate Firebase for
+                authentication and data handling. I write reusable, maintainable
+                components and handle challenges like API integration and
+                dynamic UIs. I use Git and GitHub for version control and
+                collaboration. I&apos;m passionate about merging design and
+                development to deliver seamless, engaging digital experiences. I
+                continuously explore new design trends and frontend technologies
+                to enhance my skills. I thrive in collaborative environments
+                where I can contribute to impactful projects and innovative
+                solutions.
               </p>
             </div>
           </div>
