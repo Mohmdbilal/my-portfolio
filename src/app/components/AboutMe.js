@@ -97,7 +97,7 @@ export default function AboutMe() {
                 development to deliver seamless, engaging digital experiences. I
                 continuously explore new design trends and frontend technologies
                 to enhance my skills. I thrive in collaborative environments
-                where I can contribute to impactful projects and innovative
+                where  I can contribute to impactful projects and innovative
                 solutions.
               </p>
             </div>
