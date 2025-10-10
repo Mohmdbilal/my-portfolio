@@ -13,11 +13,15 @@ export default function WorkShowBackground() {
   const router = useRouter();
 
   const handleUIDesignClick = () => {
-    router.push("/designs"); // ✅ Go to UI Design page
+    router.push("/designs"); // UI Design page
   };
 
   const handleFrontendClick = () => {
-    router.push("/frontend-dev"); // ✅ Go to Frontend page
+    router.push("/frontend-dev"); // Frontend page
+  };
+
+  const handleGraphicClick = () => {
+    router.push("/poster-gallery"); // Graphic/Poster Designs page
   };
 
   return (
@@ -45,7 +49,7 @@ export default function WorkShowBackground() {
         onClick={handleUIDesignClick}
         className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#BCBCBC] hover:bg-[#8b8b8b] hover:dark:bg-[#676767] dark:bg-[#505050] text-black dark:text-[#dfdfdf] p-6 flex flex-col justify-center items-start group"
       >
-        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover ">
+        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover">
           Creative UI Design
         </h3>
         <p className="text-sm text-left font-spline max-w-[500px]">
@@ -65,6 +69,19 @@ export default function WorkShowBackground() {
         <p className="text-sm text-left font-spline max-w-[500px]">
           Turning those designs into fully functional websites using modern
           frontend tools and frameworks.
+        </p>
+      </div>
+
+      {/* === Graphic Design / Poster Card === */}
+      <div
+        onClick={handleGraphicClick}
+        className="cursor-pointer hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 w-full max-w-[700px] rounded-[20px] bg-[#BCBCBC] hover:bg-[#8b8b8b] hover:dark:bg-[#676767] dark:bg-[#505050] text-black dark:text-[#dfdfdf] p-6 flex flex-col justify-center items-start group"
+      >
+        <h3 className="text-xl font-bold mb-2 text-left font-spline group-hover">
+          Graphic Design
+        </h3>
+        <p className="text-sm text-left font-spline max-w-[500px]">
+          Showcasing my poster and visual design projects created using Photoshop, Illustrator, and Figma.
         </p>
       </div>
     </motion.section>
