@@ -6,12 +6,7 @@ export default function CreativeDesignPage() {
   const router = useRouter();
 
   const projects = [
-    {
-      title: "Digital Marketing Agency Website Concept",
-      image: "images/work/digitalm.png",
-      figmaLink:
-        "https://www.figma.com/design/S3Fb29FD2VTGrwHGplX4Lp/OG.in?node-id=0-1&t=rCmfcqlMMtLIjHgd-1",
-    },
+
     {
       title: "My-Portfolio",
       image: "images/work/designportfolio.png",
