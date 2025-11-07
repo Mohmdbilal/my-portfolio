@@ -68,7 +68,7 @@ export default function Banner() {
                 </h1>
 
    <motion.a
-      href="/pdf/CV-BILAL.pdf"
+      href="/pdf/MohmdBilalCV.pdf"
       download="MohmdBilal-CV.pdf"
       className="relative inline-flex items-center justify-center w-[130px] h-[40px] px-4 text-sm font-light text-white 
                  bg-[#CB7F42] dark:bg-[#a76a38] rounded-xl overflow-hidden"
