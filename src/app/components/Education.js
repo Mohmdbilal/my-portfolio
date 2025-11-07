@@ -48,7 +48,7 @@ export default function Education() {
                     Frontend Web Development (Self Learning)
                   </h2>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7] mt-1">
-                    Apr 2025 - Sept 2025 (Ongoing)
+                    Apr 2025 - Oct 2025 (Ongoing)
                   </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function Education() {
                     Zoople Technologies, Kochi
                   </p>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7]  mt-1">
-                    Sep 2024 – Jan 2025
+                    Aug 2024 – Jan 2025
                   </p>
                 </div>
 
@@ -84,7 +84,7 @@ export default function Education() {
         <SectionWrapper>
           <div className="flex-2 pr-20">
             <h1 className="text-black dark:text-[#cecece]  font-bold font-spline text-[25px] sm:text-[50px] text-left mb-10">
-              Internships
+              Experience
             </h1>
 
             <div className="flex gap-6 items-start">
@@ -96,7 +96,7 @@ export default function Education() {
                 <div>
                   <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
                     UI/UX Design Intern &<br/>
-                    Freelance Graphic Designer
+                    Freelance UI/UX & Graphic Designer
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
                     Zoople Technologies, Kochi
