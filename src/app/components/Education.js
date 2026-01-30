@@ -89,20 +89,34 @@ export default function Education() {
 
             <div className="flex gap-6 items-start">
               {/* Vertical Line */}
-              <div className="w-[1px] h-[90px] bg-black dark:bg-white rounded-full mt-1"></div>
+              <div className="w-[1px] h-[190px] bg-black dark:bg-white rounded-full mt-1"></div>
 
               {/* Internship Entry */}
               <div className="flex flex-col text-left gap-4">
                 <div>
                   <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
                     UI/UX Design Intern &<br/>
-                    Freelance UI/UX & Graphic Designer
+                    Freelance 
+                  </h2>
+                  <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
+                    Easedementia, Kochi
+                  </p>
+                  <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7]  mt-1">
+                    Dec 2025 – Present
+                    <br/>
+                  </p>
+                </div>
+                
+                <div>
+                  <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
+                    UI/UX Design Intern <br/>
+                    
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
                     Zoople Technologies, Kochi
                   </p>
                   <p className="text-sm sm:text-base font-spline text-gray-700 dark:text-[#c7c7c7]  mt-1">
-                    Jan 2025 – Present
+                    Jan 2025 – March 2025
                   </p>
                 </div>
               </div>
