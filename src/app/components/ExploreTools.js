@@ -5,13 +5,13 @@ import { motion, useInView } from "framer-motion";
 const toolImages = [
   "/images/icons/figma.png",
   "/images/icons/react.png",
-  "/images/icons/nextjs.png",
+ // "/images/icons/nextjs.png",
   "/images/icons/html.png",
   "/images/icons/css.png",
   "/images/icons/javascript.png",
   "/images/icons/tailwind.png",
   "/images/icons/bootstrap.png",
-  "/images/icons/firebase.png",
+ // "/images/icons/firebase.png",
   "/images/icons/photoshop.png",   // Added Photoshop
   "/images/icons/illustrator.png", // Added Illustrator
   "/images/icons/vercel.png",
@@ -22,13 +22,13 @@ const toolImages = [
 const darkToolImages = [
   "/images/icons/figmadark.png",
   "/images/icons/reactdark.png",
-  "/images/icons/nextjsdark.png",
+  //"/images/icons/nextjsdark.png",
   "/images/icons/htmldark.png",
   "/images/icons/cssdark.png",
   "/images/icons/javascriptdark.png",
   "/images/icons/tailwinddark.png",
   "/images/icons/bootstrapdark.png",
-  "/images/icons/firebasedark.png",
+  //"/images/icons/firebasedark.png",
   "/images/icons/photoshopdark.png",   // Added Photoshop dark
   "/images/icons/illustratordark.png", // Added Illustrator dark
   "/images/icons/verceldark.png",
