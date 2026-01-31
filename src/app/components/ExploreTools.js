@@ -27,8 +27,7 @@ const darkToolImages = [
   "/images/icons/cssdark.png",
   "/images/icons/javascriptdark.png",
   "/images/icons/tailwinddark.png",
-  "/images/icons/bootstrapdark.png",
-  //"/images/icons/firebasedark.png",
+  "/images/icons/bootstrapdark.png", //"/images/icons/firebasedark.png"
   "/images/icons/photoshopdark.png",   // Added Photoshop dark
   "/images/icons/illustratordark.png", // Added Illustrator dark
   "/images/icons/verceldark.png",
