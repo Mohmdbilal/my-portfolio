@@ -109,7 +109,7 @@ export default function Education() {
                 
                 <div>
                   <h2 className="text-[16px] sm:text-xl font-semibold font-spline text-black dark:text-[#c7c7c7] ">
-                    UI/UX Design Intern <br/>
+                    UI/UX Design Training <br/>
                     
                   </h2>
                   <p className="text-sm font-spline text-gray-700 dark:text-[#c7c7c7] ">
